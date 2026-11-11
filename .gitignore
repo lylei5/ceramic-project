@@ -17,6 +17,7 @@
 # Models, archives, caches, logs, and local environment files
 *.pt
 *.pth
+*.ckpt
 *.tar
 *.log
 *.env
@@ -34,6 +35,7 @@ secrets/
 __pycache__/
 *.py[cod]
 
-# The accepted production checkpoint is versioned through Git LFS.
-!models/
-!models/*.pt
+# Runtime model files are versioned through Git LFS.
+!deployment_artifacts/wechat_cloudrun/weights/checkpoint-step114750.pt
+!deployment_artifacts/wechat_cloudrun/src/trustmark/models/encoder_Q.ckpt
+!deployment_artifacts/wechat_cloudrun/src/trustmark/models/decoder_Q.ckpt

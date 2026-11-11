@@ -1,0 +1,12 @@
+numpy==1.26.4
+Pillow==12.2.0
+opencv-python-headless==4.11.0.86
+omegaconf==2.3.1
+lightning==2.6.5
+torchmetrics==1.9.0
+einops==0.8.2
+six==1.17.0
+requests==2.32.5
+fastapi==0.139.2
+uvicorn==0.51.0
+python-multipart==0.0.32
